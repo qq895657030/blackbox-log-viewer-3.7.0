@@ -635,7 +635,9 @@ function BlackboxLogViewer() {
         
         try {
             if (logIndex === null) {
+                console.log("flightLog.getLogCount() =", flightLog.getLogCount());
                 for (var i = 0; i < flightLog.getLogCount(); i++) {
+                console.log("log", i, "openLog =", flightLog.openLog(i));
                     if (flightLog.openLog(i)) {
                         success = true;
                         currentOffsetCache.index = i;
@@ -707,11 +709,15 @@ function BlackboxLogViewer() {
     }
     
     function loadFiles(files) {
+        console.log("loadFiles called with", files.length, "file(s)");
         for (var i = 0; i < files.length; i++) {
             var
                 isLog = files[i].name.match(/\.(BBL|TXT|CFL|BFL|LOG)$/i),
                 isVideo = files[i].name.match(/\.(AVI|MOV|MP4|MPEG)$/i),
                 isWorkspaces = files[i].name.match(/\.(JSON)$/i);
+        var file = files[i];
+        console.log(`Processing file: ${file.name}, size: ${file.size}`);
+        console.log("Detected types:", { isLog, isVideo, isWorkspaces });
 
             loadFileMessage(files[i].name);
 
@@ -744,10 +750,19 @@ function BlackboxLogViewer() {
 
     function loadLogFile(file) {
         var reader = new FileReader();
-    
+     console.log("loadLogFile ................................");
         reader.onload = function(e) {
             var bytes = e.target.result;
-            
+                    var byteArray = new Uint8Array(bytes);
+
+        // 打印前 100 字节作为字符串预览
+        var preview = String.fromCharCode.apply(null, byteArray.slice(0, 100));
+        console.log("File preview (first 100 bytes):", preview);
+        // 打印完整字节数组长度和前 64 字节，避免控制台炸屏
+        console.log("Total bytes:", byteArray.length);
+        console.log("First 64 bytes:", byteArray.slice(0, 64));
+
+
             var fileContents = String.fromCharCode.apply(null, new Uint8Array(bytes, 0,100));
 
             if(fileContents.match(/# dump|# diff/i)) { // this is actually a configuration file
@@ -1107,11 +1122,12 @@ function BlackboxLogViewer() {
         });
 
         $(".file-open").change(function(e) {
+            console.log('Open log file/video WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW');
             var 
                 files = e.target.files;
 
             loadFiles(files);
-
+         
             // Clear the files, in this way we can open a file with the same path/name again
             e.target.value = "";
         });

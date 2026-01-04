@@ -1635,7 +1635,7 @@ export function FlightLogParser(logData) {
 
     this.parseHeader = function(startOffset, endOffset) {
         this.resetAllState();
-
+        console.log('parseHeader started');
         //Set parsing ranges up
         stream.start = startOffset === undefined ? stream.pos : startOffset;
         stream.pos = stream.start;
@@ -1645,9 +1645,10 @@ export function FlightLogParser(logData) {
         mainloop:
         while (true) {
             var command = stream.readChar();
-
+        console.log('Read command:', command.charCodeAt(0), command);
             switch (command) {
                 case "H":
+                    console.log('Header line found at pos', stream.pos - 1);
                     parseHeaderLine();
                 break;
                 case EOF:
