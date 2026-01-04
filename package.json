@@ -1,0 +1,43 @@
+{
+  "name": "betaflight-blackbox-explorer",
+  "productName": "Blackbox Explorer",
+  "displayName": "Betaflight - Blackbox Explorer",
+  "description": "Crossplatform blackbox analitics tool for Betaflight flight control system.",
+  "version": "4.0.0",
+  "main": "index.html",
+  "default_locale": "en",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/betaflight/blackbox-log-viewer"
+  },
+  "author": "The Betaflight open source project.",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "Leaflet.MultiOptionsPolyline": "hgoebl/Leaflet.MultiOptionsPolyline",
+    "bootstrap": "~3.4.1",
+    "html2canvas": "^1.0.0-rc.5",
+    "jquery": "^3.7.1",
+    "jquery-ui": "^1.13.2",
+    "leaflet": "^1.9.3",
+    "leaflet-marker-rotation": "^0.4.0",
+    "lodash": "^4.17.21",
+    "throttle-debounce": "^5.0.0",
+    "vite": "^5.2.6",
+    "vite-plugin-pwa": "^0.19.7"
+  },
+  "devDependencies": {
+    "inflection": "1.12.0",
+    "yarn": "^1.22.0"
+  },
+  "resolutions": {
+    "**/**/lodash.template": "^4.5.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
