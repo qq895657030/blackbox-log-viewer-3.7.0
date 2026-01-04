@@ -8,4 +8,6 @@ Date: Sat May 04 2024 06:06:27 GMT+0800 (China Standard Time)
 Give a more clear name under Mobile to the PWA app (#739)
 
 
-# 基于以下分支
+# 安装编译
+yarn install
+yarn start
