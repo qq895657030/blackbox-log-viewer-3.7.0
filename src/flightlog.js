@@ -1028,6 +1028,7 @@ export function FlightLog(logData) {
      */
     this.openLog = function(index) {
         if (this.getLogError(index)) {
+            console.log("Failed to open log", index, "⚠️⚠️⚠️Error:", logError); 
             return false;
         }
 
