@@ -1630,6 +1630,11 @@ export function FlightLogParser(logData) {
 
     // Check that the given frame definition contains some fields and the right number of predictors & encodings to match
     function isFrameDefComplete(frameDef) {
+    console.log("🔍 Checking frameDef completeness:", frameDef);
+    console.log("   count =", frameDef.count);
+    console.log("   encoding.length =", frameDef.encoding ? frameDef.encoding.length : "undefined");
+    console.log("   predictor.length =", frameDef.predictor ? frameDef.predictor.length : "undefined");
+
         return frameDef && frameDef.count > 0 && frameDef.encoding.length == frameDef.count && frameDef.predictor.length == frameDef.count;
     }
 
@@ -1666,15 +1671,18 @@ export function FlightLogParser(logData) {
                 break;
             }
         }
-
+        console.log("I-frame fields:", this.frameDefs.I.name);
+        console.log("P-frame fields:", this.frameDefs.P ? this.frameDefs.P.name : "undefined");
         adjustFieldDefsList(that.sysConfig.firmwareType, that.sysConfig.firmwareVersion);
         FlightLogFieldPresenter.adjustDebugDefsList(that.sysConfig.firmwareType, that.sysConfig.firmwareVersion);
 
         if (!isFrameDefComplete(this.frameDefs.I)) {
+            console.error("❌ I-frame incomplete, throwing error");
             throw "Log is missing required definitions for I frames, header may be corrupt";
         }
 
         if (!this.frameDefs.P) {
+            console.error("❌ P-frame definition missing❓, throwing error");
             throw "Log is missing required definitions for P frames, header may be corrupt";
         }
 
@@ -1685,6 +1693,7 @@ export function FlightLogParser(logData) {
         this.frameDefs.P.signed = this.frameDefs.I.signed;
 
         if (!isFrameDefComplete(this.frameDefs.P)) {
+            console.error("❌ P-frame incomplete, throwing error");
             throw "Log is missing required definitions for P frames, header may be corrupt";
         }
 
@@ -1714,6 +1723,7 @@ export function FlightLogParser(logData) {
         } else {
             lastSlow = [];
         }
+
     };
 
     /**

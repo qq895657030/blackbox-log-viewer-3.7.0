@@ -45,6 +45,7 @@ export function FlightLogIndex(logData) {
     }
     
     function buildIntraframeDirectories() {
+          console.log("[buildIntraframeDirectories() ....");
         var 
             parser = new FlightLogParser(logData, that);
         
@@ -83,6 +84,7 @@ export function FlightLogIndex(logData) {
                 sawEndMarker = false;
             
             try {
+                console.log(`Parsing header of log #${i + 1} at offsets ${logBeginOffsets[i]} -> ${logBeginOffsets[i + 1]}`);
                 parser.parseHeader(logBeginOffsets[i], logBeginOffsets[i + 1]);
                 parsedHeader = true;
             } catch (e) {
@@ -105,7 +107,10 @@ export function FlightLogIndex(logData) {
                     lastSlow = [],
                     lastGPSHome = [],
                     lastGPS = [];
-
+            console.log("I-frame fields detected:", mainFrameDef.name)
+            console.log("Gyro ADC indices:", gyroADC);
+            console.log("Acc Smooth indices:", accSmooth);
+            console.log("Mag ADC indices:", magADC);
                 // Identify motor fields so they can be used to show the activity summary bar
                 for (let j = 0; j < 8; j++) {
                     if (mainFrameDef.nameToIndex["motor[" + j + "]"] !== undefined) {
