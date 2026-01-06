@@ -632,7 +632,6 @@ function BlackboxLogViewer() {
     function selectLog(logIndex) {
         var
             success = false;
-        
         try {
             if (logIndex === null) {
                 console.log("flightLog.getLogCount() =", flightLog.getLogCount());
@@ -644,7 +643,7 @@ function BlackboxLogViewer() {
                         break;
                     }
                 }
-                
+                console.log("success 是=", success);  
                 if (!success) {
                     throw "No logs in this file could be parsed successfully";
                 }
@@ -657,12 +656,13 @@ function BlackboxLogViewer() {
             currentOffsetCache.index = null;
             return;
         }
-        
         if (graph) {
             graph.destroy();
         }
 
-        
+        console.log("looptime =", flightLog.getSysConfig().looptime);
+        console.log("frameIntervalPNum =", flightLog.getSysConfig().frameIntervalPNum);
+        console.log("frameIntervalPDenom =", flightLog.getSysConfig().frameIntervalPDenom);
         if((flightLog.getSysConfig().looptime             != null) &&
             (flightLog.getSysConfig().frameIntervalPNum   != null) &&
             (flightLog.getSysConfig().frameIntervalPDenom != null) ) {
@@ -790,7 +790,12 @@ function BlackboxLogViewer() {
             flightLogDataArray = new Uint8Array(bytes);
             
             try {
-                flightLog = new FlightLog(flightLogDataArray);
+                flightLog = new FlightLog(flightLogDataArray); // ✅ 赋值flightLog()
+                    console.log("flightLog 对象已创建:", flightLog);
+                    console.log("flightLog.getSysConfig():", flightLog.getSysConfig());
+                    console.log("looptime:", flightLog.getSysConfig()?.looptime);
+                    console.log("frameIntervalPNum:", flightLog.getSysConfig()?.frameIntervalPNum);
+                    console.log("frameIntervalPDenom:", flightLog.getSysConfig()?.frameIntervalPDenom);
             } catch (err) {
                 alert("Sorry, an error occurred while trying to open this log:\n\n" + err);
                 return;

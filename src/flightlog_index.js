@@ -314,14 +314,15 @@ export function FlightLogIndex(logData) {
     this.getLogCount = function() {
         if (!logBeginOffsets)
             buildLogOffsetsIndex();
-
+    console.log("logBeginOffsets:", logBeginOffsets); // 打印整个日志偏移数组
+    console.log("Log count:", logBeginOffsets.length - 1); // 实际日志数
         return logBeginOffsets.length - 1;
     };
     
     this.getIntraframeDirectories = function() {
         if (!intraframeDirectories)
             buildIntraframeDirectories();
-        
+    console.log("intraframeDirectories:", intraframeDirectories); // 打印 I-frame 索引
         return intraframeDirectories;
     };
     
