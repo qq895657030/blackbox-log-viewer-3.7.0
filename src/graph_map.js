@@ -1,4 +1,5 @@
 export function MapGrapher() {
+  console.log("MapGrapher start ...");
   let myMap,
     currentLogStartDateTime,
     currentTime,
