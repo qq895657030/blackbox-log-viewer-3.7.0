@@ -34,7 +34,7 @@ export function FlightLog(logData) {
 
         that = this,
         logIndex = false,
-        logIndexes = new FlightLogIndex(logData),
+        logIndexes = new FlightLogIndex(logData),//创建FlightLogIndex 对象
         parser = new FlightLogParser(logData),
 
         iframeDirectory,
@@ -52,7 +52,7 @@ export function FlightLog(logData) {
         maxSmoothing = 0,
 
         smoothedCache = new FIFOCache(2);
-
+        console.log("FlightLogIndex里面的定义函数 ", logIndexes);
 
     //Public fields:
     this.parser = parser;
@@ -147,10 +147,10 @@ export function FlightLog(logData) {
         return logIndex;
     };
 
-    this.getLogCount = function() {
-        return logIndexes.getLogCount();
+    this.getLogCount = function() { 
+        return logIndexes.getLogCount(); //FlightLogIndex
     };
-
+ //  console.log("FlightLogIndex(logData) end ...");
     /**
      * Return a coarse summary of throttle position and events across the entire log.
      */

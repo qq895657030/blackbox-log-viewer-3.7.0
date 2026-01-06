@@ -5,6 +5,7 @@ import { ArrayDataStream } from "./datastream";
 import './decoders';
 
 export function FlightLogIndex(logData) {
+    console.log("FlightLogIndex(logData) start ...");
     //Private:
     var 
         that = this,
@@ -17,6 +18,11 @@ export function FlightLogIndex(logData) {
             stream = new ArrayDataStream(logData), 
             i, logStart;
         
+    console.log("[FlightLogIndex] buildLogOffsetsIndex start");
+    console.log("[FlightLogIndex] logData length =", logData.length);
+    console.log("[FlightLogIndex] START_MARKER =",
+        FlightLogParser.prototype.FLIGHT_LOG_START_MARKER);
+
         logBeginOffsets = [];
     
         for (i = 0; ; i++) {
@@ -33,6 +39,9 @@ export function FlightLogIndex(logData) {
             //Restart the search after this header
             stream.pos = logStart + FlightLogParser.prototype.FLIGHT_LOG_START_MARKER.length;
         }
+        
+    console.log("[FlightLogIndex] logBeginOffsets =", logBeginOffsets);
+    console.log("[FlightLogIndex] FINAL logCount =", logBeginOffsets.length - 1);
     }
     
     function buildIntraframeDirectories() {

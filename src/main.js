@@ -388,8 +388,9 @@ function BlackboxLogViewer() {
     }
 
     function renderLogFileInfo(file) {
+        console.log("renderLogFileInfo(file) start ....");
         $(".log-filename").text(file.name);
-
+        console.log("flightLog =", flightLog);
         var
             logIndexContainer = $(".log-index"),
             logIndexPicker,
@@ -648,16 +649,20 @@ function BlackboxLogViewer() {
                 if (!success) {
                     throw "No logs in this file could be parsed successfully";
                 }
+                console.log("logIndex === null");
             } else {
+                 console.log("logIndex provided:", logIndex);
                 flightLog.openLog(logIndex);
                 currentOffsetCache.index = logIndex;
             }
         } catch (e) {
+            console.log("Error opening log:", e);
             alert("Error opening log: " + e);
             currentOffsetCache.index = null;
             return;
         }
         if (graph) {
+             console.log("graph.destroy();");
             graph.destroy();
         }
 
