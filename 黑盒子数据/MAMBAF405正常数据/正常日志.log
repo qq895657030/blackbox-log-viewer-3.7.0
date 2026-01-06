@@ -1,762 +1,762 @@
 tools.js:439 manifest does not exist, probably not running nw.js
-main.js:1130 Open log file/video WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-main.js:712 loadFiles called with 1 file(s)
- Processing file: BTFL_BLACKBOX_LOG_20260104_164850_MAMBAF405_2022B.BBL, size: 756992
- Detected types: {isLog: Array(2), isVideo: null, isWorkspaces: null}
- loadLogFile ................................
- File preview (first 100 bytes): H Product:Blackbox flight data recorder by Nicholas Sherlock
+main.js:1131 Open log file/video WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+main.js:713 loadFiles called with 1 file(s)
+main.js:720 Processing file: BTFL_BLACKBOX_LOG_20260104_164850_MAMBAF405_2022B.BBL, size: 756992
+main.js:721 Detected types: {isLog: Array(2), isVideo: null, isWorkspaces: null}
+main.js:754 loadLogFile ................................
+main.js:761 File preview (first 100 bytes): H Product:Blackbox flight data recorder by Nicholas Sherlock
 H Data version:2
 H Field I name:loopIte
- Total bytes: 756992
- First 64 bytes: Uint8Array(64) [72, 32, 80, 114, 111, 100, 117, 99, 116, 58, 66, 108, 97, 99, 107, 98, 111, 120, 32, 102, 108, 105, 103, 104, 116, 32, 100, 97, 116, 97, 32, 114, 101, 99, 111, 114, 100, 101, 114, 32, 98, 121, 32, 78, 105, 99, 104, 111, 108, 97, 115, 32, 83, 104, 101, 114, 108, 111, 99, 107, 10, 72, 32, 68, buffer: ArrayBuffer(64), byteLength: 64, byteOffset: 0, length: 64, Symbol(Symbol.toStringTag): 'Uint8Array']
- flightLog 对象已创建: FlightLog {parser: FlightLogParser, getMainFieldCount: ƒ, getMainFieldNames: ƒ, getLogError: ƒ, getStats: ƒ, …}
- flightLog.getSysConfig(): {}
- looptime: null
- frameIntervalPNum: 1
- frameIntervalPDenom: 1
- logBeginOffsets: (2) [0, 756992]
- Log count: 1
- logBeginOffsets: (2) [0, 756992]
- Log count: 1
- parseHeader started
- Read command: 72 H
- Header line found at pos 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 61
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 78
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 495
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 586
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 681
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 774
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 868
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 961
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1056
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1083
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1113
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1142
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1170
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1229
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1266
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1307
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1358
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1372
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1389
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1404
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1417
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1436
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1455
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1479
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1502
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1516
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1533
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1563
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1578
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1600
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1615
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1635
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1657
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1670
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1683
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1696
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1710
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1732
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1750
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1776
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1795
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1815
- Ignoring unsupported header ez_landing_threshold 25
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1841
- Ignoring unsupported header ez_landing_limit 15
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1863
- Ignoring unsupported header ez_landing_speed 50
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1885
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1902
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1918
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1935
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1964
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1983
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2003
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2020
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2040
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2052
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2068
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2084
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2103
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2123
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2149
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2176
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2200
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2220
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2247
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2268
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2287
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2310
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2328
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2344
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2365
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2389
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2413
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2436
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2463
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2489
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2510
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2533
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2557
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2584
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2610
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2641
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2671
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2694
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2726
- Ignoring unsupported header angle_feedforward 50
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2749
- Ignoring unsupported header angle_feedforward_smoothing_ms 80
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2785
- Ignoring unsupported header angle_limit 60
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2802
- Ignoring unsupported header angle_earth_ref 100
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2824
- Ignoring unsupported header horizon_limit_degrees 135
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2852
- Ignoring unsupported header horizon_delay_ms 500
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2875
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2893
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2907
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2926
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2949
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2962
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2979
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3001
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3020
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3046
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3073
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3096
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3115
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3141
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3161
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3185
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3201
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3224
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3244
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3262
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3285
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3301
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3318
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3343
- Ignoring unsupported header rpm_filter_weights 100,100,100
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3376
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3395
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3419
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3449
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3473
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3491
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3508
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3526
- Ignoring unsupported header altitude_source 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3546
- Ignoring unsupported header altitude_prefer_baro 100
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3573
- Ignoring unsupported header altitude_lpf 300
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3592
- Ignoring unsupported header altitude_d_lpf 100
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3613
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3639
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3670
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3692
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3713
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3736
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3757
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3780
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3795
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3816
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3833
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3863
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3902
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3938
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3971
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4004
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4032
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4081
- Ignoring unsupported header rc_smoothing_rx_smoothed 130
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4112
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4127
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4152
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4181
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4207
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4228
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4249
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4270
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4291
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4319
- Ignoring unsupported header dyn_idle_start_increase 50
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4348
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4373
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4408
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4432
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4456
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4481
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4508
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4542
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4572
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4603
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4631
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4672
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4699
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4739
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4764
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4788
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4817
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4836
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4863
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4881
- Ignoring unsupported header gps_provider 1
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4898
- Ignoring unsupported header gps_set_home_point_once 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4926
- Ignoring unsupported header gps_use_3d_speed 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4947
- Ignoring unsupported header gps_rescue_min_start_dist 15
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4978
- Ignoring unsupported header gps_rescue_alt_mode 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5002
- Ignoring unsupported header gps_rescue_initial_climb 10
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5032
- Ignoring unsupported header gps_rescue_ascend_rate 750
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5061
- Ignoring unsupported header gps_rescue_return_alt 30
+main.js:763 Total bytes: 756992
+main.js:764 First 64 bytes: Uint8Array(64) [72, 32, 80, 114, 111, 100, 117, 99, 116, 58, 66, 108, 97, 99, 107, 98, 111, 120, 32, 102, 108, 105, 103, 104, 116, 32, 100, 97, 116, 97, 32, 114, 101, 99, 111, 114, 100, 101, 114, 32, 98, 121, 32, 78, 105, 99, 104, 111, 108, 97, 115, 32, 83, 104, 101, 114, 108, 111, 99, 107, 10, 72, 32, 68, buffer: ArrayBuffer(64), byteLength: 64, byteOffset: 0, length: 64, Symbol(Symbol.toStringTag): 'Uint8Array']
+main.js:795 flightLog 对象已创建: FlightLog {parser: FlightLogParser, getMainFieldCount: ƒ, getMainFieldNames: ƒ, getLogError: ƒ, getStats: ƒ, …}
+main.js:796 flightLog.getSysConfig(): {}
+main.js:797 looptime: null
+main.js:798 frameIntervalPNum: 1
+main.js:799 frameIntervalPDenom: 1
+flightlog_index.js:317 logBeginOffsets: (2) [0, 756992]
+flightlog_index.js:318 Log count: 1
+flightlog_index.js:317 logBeginOffsets: (2) [0, 756992]
+flightlog_index.js:318 Log count: 1
+flightlog_parser.js:1638 parseHeader started
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 61
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 78
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 495
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 586
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 681
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 774
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 868
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 961
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1056
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1083
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1113
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1142
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1170
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1229
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1266
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1307
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1358
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1372
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1389
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1404
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1417
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1436
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1455
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1479
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1502
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1516
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1533
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1563
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1578
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1600
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1615
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1635
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1657
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1670
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1683
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1696
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1710
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1732
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1750
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1776
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1795
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1815
+flightlog_parser.js:1027 Ignoring unsupported header ez_landing_threshold 25
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1841
+flightlog_parser.js:1027 Ignoring unsupported header ez_landing_limit 15
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1863
+flightlog_parser.js:1027 Ignoring unsupported header ez_landing_speed 50
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1885
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1902
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1918
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1935
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1964
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1983
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2003
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2020
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2040
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2052
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2068
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2084
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2103
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2123
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2149
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2176
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2200
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2220
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2247
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2268
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2287
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2310
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2328
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2344
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2365
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2389
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2413
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2436
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2463
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2489
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2510
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2533
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2557
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2584
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2610
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2641
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2671
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2694
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2726
+flightlog_parser.js:1027 Ignoring unsupported header angle_feedforward 50
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2749
+flightlog_parser.js:1027 Ignoring unsupported header angle_feedforward_smoothing_ms 80
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2785
+flightlog_parser.js:1027 Ignoring unsupported header angle_limit 60
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2802
+flightlog_parser.js:1027 Ignoring unsupported header angle_earth_ref 100
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2824
+flightlog_parser.js:1027 Ignoring unsupported header horizon_limit_degrees 135
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2852
+flightlog_parser.js:1027 Ignoring unsupported header horizon_delay_ms 500
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2875
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2893
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2907
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2926
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2949
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2962
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2979
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3001
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3020
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3046
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3073
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3096
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3115
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3141
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3161
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3185
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3201
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3224
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3244
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3262
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3285
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3301
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3318
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3343
+flightlog_parser.js:1027 Ignoring unsupported header rpm_filter_weights 100,100,100
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3376
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3395
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3419
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3449
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3473
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3491
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3508
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3526
+flightlog_parser.js:1027 Ignoring unsupported header altitude_source 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3546
+flightlog_parser.js:1027 Ignoring unsupported header altitude_prefer_baro 100
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3573
+flightlog_parser.js:1027 Ignoring unsupported header altitude_lpf 300
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3592
+flightlog_parser.js:1027 Ignoring unsupported header altitude_d_lpf 100
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3613
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3639
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3670
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3692
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3713
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3736
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3757
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3780
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3795
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3816
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3833
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3863
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3902
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3938
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3971
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4004
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4032
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4081
+flightlog_parser.js:1027 Ignoring unsupported header rc_smoothing_rx_smoothed 130
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4112
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4127
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4152
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4181
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4207
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4228
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4249
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4270
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4291
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4319
+flightlog_parser.js:1027 Ignoring unsupported header dyn_idle_start_increase 50
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4348
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4373
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4408
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4432
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4456
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4481
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4508
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4542
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4572
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4603
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4631
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4672
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4699
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4739
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4764
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4788
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4817
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4836
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4863
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4881
+flightlog_parser.js:1027 Ignoring unsupported header gps_provider 1
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4898
+flightlog_parser.js:1027 Ignoring unsupported header gps_set_home_point_once 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4926
+flightlog_parser.js:1027 Ignoring unsupported header gps_use_3d_speed 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4947
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_min_start_dist 15
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4978
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_alt_mode 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5002
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_initial_climb 10
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5032
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_ascend_rate 750
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5061
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_return_alt 30
 flightlog_parser.js:1648 Read command: 10 
 
 flightlog_parser.js:1648 Read command: 72 H
@@ -870,1620 +870,766 @@ flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_yaw_p 20
 flightlog_parser.js:1648 Read command: 10 
 
 flightlog_parser.js:1648 Read command: 73 I
- logBeginOffsets: (2) [0, 756992]
- Log count: 1
- intraframeDirectories: [{…}]
- intraframeDirectories: [{…}]
- intraframeDirectories: [{…}]
- intraframeDirectories: [{…}]
- intraframeDirectories: [{…}]
- logBeginOffsets: (2) [0, 756992]
- Log count: 1
- flightLog.getLogCount() = 1
- logBeginOffsets: (2) [0, 756992]
- Log count: 1
- intraframeDirectories: [{…}]
- intraframeDirectories: [{…}]
- parseHeader started
- Read command: 72 H
- Header line found at pos 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 61
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 78
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 495
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 586
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 681
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 774
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 868
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 961
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1056
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1083
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1113
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1142
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1170
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1229
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1266
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1307
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1358
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1372
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1389
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1404
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1417
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1436
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1455
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1479
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1502
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1516
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1533
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1563
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1578
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1600
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1615
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1635
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1657
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1670
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1683
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1696
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1710
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1732
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1750
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1776
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1795
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1815
- Ignoring unsupported header ez_landing_threshold 25
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1841
- Ignoring unsupported header ez_landing_limit 15
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1863
- Ignoring unsupported header ez_landing_speed 50
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1885
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1902
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1918
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1935
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1964
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1983
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2003
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2020
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2040
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2052
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2068
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2084
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2103
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2123
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2149
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2176
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2200
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2220
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2247
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2268
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2287
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2310
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2328
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2344
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2365
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2389
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2413
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2436
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2463
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2489
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2510
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2533
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2557
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2584
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2610
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2641
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2671
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2694
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2726
- Ignoring unsupported header angle_feedforward 50
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2749
- Ignoring unsupported header angle_feedforward_smoothing_ms 80
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2785
- Ignoring unsupported header angle_limit 60
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2802
- Ignoring unsupported header angle_earth_ref 100
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2824
- Ignoring unsupported header horizon_limit_degrees 135
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2852
- Ignoring unsupported header horizon_delay_ms 500
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2875
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2893
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2907
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2926
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2949
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2962
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2979
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3001
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3020
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3046
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3073
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3096
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3115
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3141
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3161
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3185
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3201
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3224
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3244
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3262
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3285
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3301
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3318
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3343
- Ignoring unsupported header rpm_filter_weights 100,100,100
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3376
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3395
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3419
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3449
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3473
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3491
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3508
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3526
- Ignoring unsupported header altitude_source 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3546
- Ignoring unsupported header altitude_prefer_baro 100
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3573
- Ignoring unsupported header altitude_lpf 300
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3592
- Ignoring unsupported header altitude_d_lpf 100
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3613
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3639
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3670
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3692
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3713
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3736
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3757
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3780
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3795
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3816
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3833
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3863
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3902
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3938
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3971
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4004
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4032
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4081
- Ignoring unsupported header rc_smoothing_rx_smoothed 130
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4112
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4127
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4152
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4181
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4207
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4228
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4249
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4270
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4291
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4319
- Ignoring unsupported header dyn_idle_start_increase 50
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4348
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4373
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4408
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4432
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4456
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4481
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4508
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4542
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4572
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4603
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4631
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4672
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4699
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4739
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4764
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4788
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4817
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4836
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4863
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4881
- Ignoring unsupported header gps_provider 1
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4898
- Ignoring unsupported header gps_set_home_point_once 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4926
- Ignoring unsupported header gps_use_3d_speed 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4947
- Ignoring unsupported header gps_rescue_min_start_dist 15
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4978
- Ignoring unsupported header gps_rescue_alt_mode 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5002
- Ignoring unsupported header gps_rescue_initial_climb 10
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5032
- Ignoring unsupported header gps_rescue_ascend_rate 750
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5061
- Ignoring unsupported header gps_rescue_return_alt 30
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5088
- Ignoring unsupported header gps_rescue_ground_speed 750
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5118
- Ignoring unsupported header gps_rescue_max_angle 45
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5144
- Ignoring unsupported header gps_rescue_roll_mix 150
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5170
- Ignoring unsupported header gps_rescue_pitch_cutoff 75
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5199
- Ignoring unsupported header gps_rescue_imu_yaw_gain 10
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5228
- Ignoring unsupported header gps_rescue_descent_dist 20
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5257
- Ignoring unsupported header gps_rescue_descend_rate 150
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5287
- Ignoring unsupported header gps_rescue_landing_alt 4
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5314
- Ignoring unsupported header gps_rescue_disarm_threshold 20
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5347
- Ignoring unsupported header gps_rescue_throttle_min 1100
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5378
- Ignoring unsupported header gps_rescue_throttle_max 1700
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5409
- Ignoring unsupported header gps_rescue_throttle_hover 1275
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5442
- Ignoring unsupported header gps_rescue_sanity_checks 2
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5471
- Ignoring unsupported header gps_rescue_min_sats 8
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5495
- Ignoring unsupported header gps_rescue_allow_arming_without_fix 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5535
- Ignoring unsupported header gps_rescue_throttle_p 15
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5562
- Ignoring unsupported header gps_rescue_throttle_i 15
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5589
- Ignoring unsupported header gps_rescue_throttle_d 20
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5616
- Ignoring unsupported header gps_rescue_velocity_p 8
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5642
- Ignoring unsupported header gps_rescue_velocity_i 40
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5669
- Ignoring unsupported header gps_rescue_velocity_d 12
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5696
- Ignoring unsupported header gps_rescue_yaw_p 20
- Read command: 10 
-
- Read command: 73 I
- log 0 openLog = true
- intraframeDirectories: [{…}]
- intraframeDirectories: [{…}]
- parseHeader started
- Read command: 72 H
- Header line found at pos 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 61
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 78
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 495
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 586
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 681
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 774
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 868
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 961
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1056
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1083
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1113
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1142
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1170
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1229
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1266
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1307
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1358
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1372
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1389
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1404
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1417
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1436
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1455
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1479
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1502
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1516
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1533
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1563
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1578
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1600
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1615
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1635
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1657
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1670
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1683
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1696
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1710
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1732
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1750
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1776
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1795
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1815
- Ignoring unsupported header ez_landing_threshold 25
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1841
- Ignoring unsupported header ez_landing_limit 15
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1863
- Ignoring unsupported header ez_landing_speed 50
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1885
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1902
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1918
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1935
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1964
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 1983
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2003
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2020
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2040
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2052
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2068
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2084
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2103
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2123
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2149
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2176
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2200
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2220
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2247
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2268
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2287
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2310
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2328
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2344
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2365
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2389
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2413
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2436
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2463
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2489
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2510
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2533
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2557
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2584
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2610
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2641
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2671
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2694
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2726
- Ignoring unsupported header angle_feedforward 50
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2749
- Ignoring unsupported header angle_feedforward_smoothing_ms 80
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2785
- Ignoring unsupported header angle_limit 60
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2802
- Ignoring unsupported header angle_earth_ref 100
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2824
- Ignoring unsupported header horizon_limit_degrees 135
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2852
- Ignoring unsupported header horizon_delay_ms 500
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2875
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2893
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2907
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2926
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2949
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2962
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 2979
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3001
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3020
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3046
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3073
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3096
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3115
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3141
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3161
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3185
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3201
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3224
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3244
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3262
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3285
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3301
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3318
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3343
- Ignoring unsupported header rpm_filter_weights 100,100,100
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3376
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3395
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3419
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3449
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3473
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3491
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3508
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3526
- Ignoring unsupported header altitude_source 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3546
- Ignoring unsupported header altitude_prefer_baro 100
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3573
- Ignoring unsupported header altitude_lpf 300
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3592
- Ignoring unsupported header altitude_d_lpf 100
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3613
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3639
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3670
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3692
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3713
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3736
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3757
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3780
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3795
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3816
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3833
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3863
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3902
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3938
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 3971
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4004
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4032
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4081
- Ignoring unsupported header rc_smoothing_rx_smoothed 130
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4112
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4127
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4152
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4181
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4207
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4228
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4249
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4270
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4291
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4319
- Ignoring unsupported header dyn_idle_start_increase 50
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4348
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4373
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4408
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4432
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4456
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4481
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4508
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4542
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4572
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4603
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4631
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4672
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4699
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4739
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4764
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4788
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4817
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4836
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4863
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4881
- Ignoring unsupported header gps_provider 1
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4898
- Ignoring unsupported header gps_set_home_point_once 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4926
- Ignoring unsupported header gps_use_3d_speed 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4947
- Ignoring unsupported header gps_rescue_min_start_dist 15
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 4978
- Ignoring unsupported header gps_rescue_alt_mode 0
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5002
- Ignoring unsupported header gps_rescue_initial_climb 10
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5032
- Ignoring unsupported header gps_rescue_ascend_rate 750
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5061
- Ignoring unsupported header gps_rescue_return_alt 30
- Read command: 10 
-
- Read command: 72 H
- Header line found at pos 5088
- Ignoring unsupported header gps_rescue_ground_speed 750
- Read command: 10 
+flightlog_index.js:317 logBeginOffsets: (2) [0, 756992]
+flightlog_index.js:318 Log count: 1
+flightlog_index.js:325 intraframeDirectories: [{…}]
+flightlog_index.js:325 intraframeDirectories: [{…}]
+flightlog_index.js:325 intraframeDirectories: [{…}]
+flightlog_index.js:325 intraframeDirectories: [{…}]
+flightlog_index.js:325 intraframeDirectories: [{…}]
+main.js:633 selectLog start ....
+flightlog_index.js:317 logBeginOffsets: (2) [0, 756992]
+flightlog_index.js:318 Log count: 1
+main.js:638 flightLog.getLogCount() = 1
+flightlog_index.js:317 logBeginOffsets: (2) [0, 756992]
+flightlog_index.js:318 Log count: 1
+flightlog_index.js:325 intraframeDirectories: [{…}]
+flightlog_index.js:325 intraframeDirectories: [{…}]
+flightlog_parser.js:1638 parseHeader started
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 61
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 78
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 495
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 586
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 681
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 774
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 868
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 961
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1056
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1083
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1113
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1142
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1170
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1229
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1266
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1307
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1358
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1372
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1389
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1404
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1417
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1436
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1455
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1479
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1502
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1516
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1533
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1563
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1578
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1600
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1615
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1635
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1657
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1670
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1683
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1696
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1710
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1732
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1750
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1776
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1795
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1815
+flightlog_parser.js:1027 Ignoring unsupported header ez_landing_threshold 25
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1841
+flightlog_parser.js:1027 Ignoring unsupported header ez_landing_limit 15
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1863
+flightlog_parser.js:1027 Ignoring unsupported header ez_landing_speed 50
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1885
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1902
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1918
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1935
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1964
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1983
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2003
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2020
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2040
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2052
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2068
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2084
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2103
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2123
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2149
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2176
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2200
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2220
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2247
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2268
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2287
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2310
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2328
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2344
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2365
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2389
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2413
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2436
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2463
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2489
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2510
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2533
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2557
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2584
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2610
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2641
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2671
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2694
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2726
+flightlog_parser.js:1027 Ignoring unsupported header angle_feedforward 50
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2749
+flightlog_parser.js:1027 Ignoring unsupported header angle_feedforward_smoothing_ms 80
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2785
+flightlog_parser.js:1027 Ignoring unsupported header angle_limit 60
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2802
+flightlog_parser.js:1027 Ignoring unsupported header angle_earth_ref 100
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2824
+flightlog_parser.js:1027 Ignoring unsupported header horizon_limit_degrees 135
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2852
+flightlog_parser.js:1027 Ignoring unsupported header horizon_delay_ms 500
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2875
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2893
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2907
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2926
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2949
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2962
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2979
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3001
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3020
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3046
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3073
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3096
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3115
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3141
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3161
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3185
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3201
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3224
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3244
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3262
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3285
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3301
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3318
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3343
+flightlog_parser.js:1027 Ignoring unsupported header rpm_filter_weights 100,100,100
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3376
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3395
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3419
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3449
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3473
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3491
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3508
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3526
+flightlog_parser.js:1027 Ignoring unsupported header altitude_source 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3546
+flightlog_parser.js:1027 Ignoring unsupported header altitude_prefer_baro 100
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3573
+flightlog_parser.js:1027 Ignoring unsupported header altitude_lpf 300
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3592
+flightlog_parser.js:1027 Ignoring unsupported header altitude_d_lpf 100
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3613
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3639
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3670
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3692
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3713
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3736
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3757
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3780
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3795
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3816
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3833
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3863
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3902
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3938
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3971
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4004
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4032
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4081
+flightlog_parser.js:1027 Ignoring unsupported header rc_smoothing_rx_smoothed 130
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4112
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4127
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4152
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4181
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4207
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4228
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4249
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4270
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4291
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4319
+flightlog_parser.js:1027 Ignoring unsupported header dyn_idle_start_increase 50
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4348
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4373
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4408
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4432
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4456
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4481
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4508
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4542
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4572
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4603
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4631
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4672
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4699
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4739
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4764
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4788
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4817
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4836
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4863
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4881
+flightlog_parser.js:1027 Ignoring unsupported header gps_provider 1
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4898
+flightlog_parser.js:1027 Ignoring unsupported header gps_set_home_point_once 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4926
+flightlog_parser.js:1027 Ignoring unsupported header gps_use_3d_speed 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4947
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_min_start_dist 15
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4978
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_alt_mode 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5002
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_initial_climb 10
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5032
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_ascend_rate 750
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5061
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_return_alt 30
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5088
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_ground_speed 750
+flightlog_parser.js:1648 Read command: 10 
 
 flightlog_parser.js:1648 Read command: 72 H
 flightlog_parser.js:1651 Header line found at pos 5118
@@ -2591,9 +1737,879 @@ flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_yaw_p 20
 flightlog_parser.js:1648 Read command: 10 
 
 flightlog_parser.js:1648 Read command: 73 I
-main.js:646 success 是= true
-main.js:663 looptime = 125
-main.js:664 frameIntervalPNum = 1
-main.js:665 frameIntervalPDenom = 4
+main.js:640 log 0 openLog = true
+flightlog_index.js:325 intraframeDirectories: [{…}]
+flightlog_index.js:325 intraframeDirectories: [{…}]
+flightlog_parser.js:1638 parseHeader started
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 61
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 78
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 495
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 586
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 681
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 774
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 868
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 961
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1056
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1083
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1113
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1142
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1170
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1229
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1266
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1307
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1358
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1372
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1389
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1404
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1417
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1436
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1455
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1479
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1502
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1516
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1533
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1563
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1578
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1600
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1615
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1635
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1657
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1670
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1683
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1696
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1710
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1732
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1750
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1776
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1795
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1815
+flightlog_parser.js:1027 Ignoring unsupported header ez_landing_threshold 25
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1841
+flightlog_parser.js:1027 Ignoring unsupported header ez_landing_limit 15
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1863
+flightlog_parser.js:1027 Ignoring unsupported header ez_landing_speed 50
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1885
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1902
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1918
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1935
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1964
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 1983
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2003
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2020
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2040
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2052
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2068
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2084
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2103
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2123
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2149
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2176
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2200
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2220
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2247
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2268
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2287
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2310
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2328
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2344
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2365
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2389
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2413
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2436
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2463
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2489
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2510
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2533
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2557
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2584
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2610
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2641
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2671
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2694
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2726
+flightlog_parser.js:1027 Ignoring unsupported header angle_feedforward 50
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2749
+flightlog_parser.js:1027 Ignoring unsupported header angle_feedforward_smoothing_ms 80
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2785
+flightlog_parser.js:1027 Ignoring unsupported header angle_limit 60
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2802
+flightlog_parser.js:1027 Ignoring unsupported header angle_earth_ref 100
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2824
+flightlog_parser.js:1027 Ignoring unsupported header horizon_limit_degrees 135
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2852
+flightlog_parser.js:1027 Ignoring unsupported header horizon_delay_ms 500
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2875
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2893
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2907
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2926
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2949
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2962
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 2979
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3001
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3020
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3046
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3073
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3096
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3115
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3141
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3161
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3185
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3201
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3224
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3244
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3262
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3285
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3301
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3318
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3343
+flightlog_parser.js:1027 Ignoring unsupported header rpm_filter_weights 100,100,100
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3376
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3395
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3419
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3449
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3473
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3491
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3508
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3526
+flightlog_parser.js:1027 Ignoring unsupported header altitude_source 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3546
+flightlog_parser.js:1027 Ignoring unsupported header altitude_prefer_baro 100
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3573
+flightlog_parser.js:1027 Ignoring unsupported header altitude_lpf 300
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3592
+flightlog_parser.js:1027 Ignoring unsupported header altitude_d_lpf 100
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3613
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3639
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3670
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3692
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3713
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3736
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3757
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3780
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3795
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3816
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3833
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3863
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3902
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3938
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 3971
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4004
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4032
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4081
+flightlog_parser.js:1027 Ignoring unsupported header rc_smoothing_rx_smoothed 130
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4112
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4127
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4152
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4181
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4207
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4228
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4249
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4270
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4291
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4319
+flightlog_parser.js:1027 Ignoring unsupported header dyn_idle_start_increase 50
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4348
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4373
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4408
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4432
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4456
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4481
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4508
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4542
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4572
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4603
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4631
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4672
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4699
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4739
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4764
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4788
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4817
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4836
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4863
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4881
+flightlog_parser.js:1027 Ignoring unsupported header gps_provider 1
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4898
+flightlog_parser.js:1027 Ignoring unsupported header gps_set_home_point_once 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4926
+flightlog_parser.js:1027 Ignoring unsupported header gps_use_3d_speed 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4947
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_min_start_dist 15
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 4978
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_alt_mode 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5002
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_initial_climb 10
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5032
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_ascend_rate 750
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5061
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_return_alt 30
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5088
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_ground_speed 750
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5118
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_max_angle 45
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5144
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_roll_mix 150
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5170
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_pitch_cutoff 75
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5199
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_imu_yaw_gain 10
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5228
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_descent_dist 20
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5257
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_descend_rate 150
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5287
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_landing_alt 4
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5314
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_disarm_threshold 20
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5347
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_throttle_min 1100
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5378
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_throttle_max 1700
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5409
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_throttle_hover 1275
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5442
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_sanity_checks 2
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5471
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_min_sats 8
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5495
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_allow_arming_without_fix 0
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5535
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_throttle_p 15
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5562
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_throttle_i 15
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5589
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_throttle_d 20
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5616
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_velocity_p 8
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5642
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_velocity_i 40
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5669
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_velocity_d 12
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 72 H
+flightlog_parser.js:1651 Header line found at pos 5696
+flightlog_parser.js:1027 Ignoring unsupported header gps_rescue_yaw_p 20
+flightlog_parser.js:1648 Read command: 10 
+
+flightlog_parser.js:1648 Read command: 73 I
+main.js:647 success 是= true
+main.js:664 looptime = 125
+main.js:665 frameIntervalPNum = 1
+main.js:666 frameIntervalPDenom = 4
 three.min.js:513 THREE.WebGLRenderer 70
 flightlog_index.js:325 intraframeDirectories: [{…}]
+main.js:1813  [Intervention]Unable to preventDefault inside passive event listener due to target being treated as passive. See https://www.chromestatus.com/feature/6662647093133312
+preventDefault @ jquery.js:5479
+(匿名) @ main.js:1813
+dispatch @ jquery.js:5145
+elemData.handle @ jquery.js:4949
+[新] 使用 Edge 中的 Copilot 来解释控制台错误: 单击
+         
+         以说明错误。
+        了解更多信息
+        不再显示
+main.js:1813  [Intervention]Unable to preventDefault inside passive event listener due to target being treated as passive. See https://www.chromestatus.com/feature/6662647093133312
+preventDefault @ jquery.js:5479
+(匿名) @ main.js:1813
+dispatch @ jquery.js:5145
+elemData.handle @ jquery.js:4949

@@ -630,6 +630,7 @@ function BlackboxLogViewer() {
      * available log.
      */
     function selectLog(logIndex) {
+           console.log("selectLog start ....");
         var
             success = false;
         try {
