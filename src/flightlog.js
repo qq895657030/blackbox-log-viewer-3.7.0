@@ -637,6 +637,25 @@ export function FlightLog(logData) {
                         fieldIndex = destFrame.length - ADDITIONAL_COMPUTED_FIELD_COUNT;
 
                     if (!that.isFieldDisabled().GYRO) { //don't calculate attitude if no gyro data
+                            const gyro = [
+                                srcFrame[gyroADC[0]],
+                                srcFrame[gyroADC[1]],
+                                srcFrame[gyroADC[2]]
+                            ];
+                            const acc = [
+                                srcFrame[accSmooth[0]],
+                                srcFrame[accSmooth[1]],
+                                srcFrame[accSmooth[2]]
+                            ];
+                            const time = srcFrame[FlightLogParser.prototype.FLIGHT_LOG_FIELD_INDEX_TIME];
+                            console.log('=== Attitude Input ===');
+                            console.log('gyro:', gyro);
+                            console.log('acc :', acc);
+                            console.log('time:', time);
+                            console.log('acc_1G:', sysConfig.acc_1G);
+                            console.log('gyroScale:', sysConfig.gyroScale);
+                            console.log('magADC:', magADC);
+
                         attitude = chunkIMU.updateEstimatedAttitude(
                             [srcFrame[gyroADC[0]], srcFrame[gyroADC[1]], srcFrame[gyroADC[2]]],
                             [srcFrame[accSmooth[0]], srcFrame[accSmooth[1]], srcFrame[accSmooth[2]]],

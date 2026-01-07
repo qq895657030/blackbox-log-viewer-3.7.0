@@ -907,14 +907,21 @@ export function FlightLogParser(logData) {
             break;
             case "gyro.scale":
             case "gyro_scale":
+                    console.log("=== gyro_scale parse begin ===");
+                    console.log("fieldName:", fieldName);
+                    console.log("raw fieldValue:", fieldValue);
                     that.sysConfig.gyroScale = hexToFloat(fieldValue);
+                    console.log("parsed gyroScale (header value):", that.sysConfig.gyroScale);
+                    console.log("firmwareType:", that.sysConfig.firmwareType);
                     /* Baseflight uses a gyroScale that'll give radians per microsecond as output, whereas Cleanflight produces degrees
                      * per second and leaves the conversion to radians per us to the IMU. Let's just convert Cleanflight's scale to
                      * match Baseflight so we can use Baseflight's IMU for both: */
                     if (that.sysConfig.firmwareType == FIRMWARE_TYPE_INAV ||
                         that.sysConfig.firmwareType == FIRMWARE_TYPE_CLEANFLIGHT ||
                         that.sysConfig.firmwareType == FIRMWARE_TYPE_BETAFLIGHT) {
+                        console.log("gyroScale before convert:", that.sysConfig.gyroScale);
                         that.sysConfig.gyroScale = that.sysConfig.gyroScale * (Math.PI / 180.0) * 0.000001;
+                        console.log("gyroScale after convert (rad/us):", that.sysConfig.gyroScale);
                     }
             break;
             case "Firmware revision":
