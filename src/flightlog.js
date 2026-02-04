@@ -35,7 +35,7 @@ export function FlightLog(logData) {
         that = this,
         logIndex = false,
         logIndexes = new FlightLogIndex(logData),//创建FlightLogIndex 对象
-        parser = new FlightLogParser(logData),
+        parser = new FlightLogParser(logData),//解析每帧数据，将二进制转换成可用的数值（gyroADC、accSmooth、PID、GPS 等）
 
         iframeDirectory,
 
@@ -635,7 +635,8 @@ export function FlightLog(logData) {
                         srcFrame = sourceChunk.frames[i],
                         destFrame = destChunk.frames[i],
                         fieldIndex = destFrame.length - ADDITIONAL_COMPUTED_FIELD_COUNT;
-
+    // 打印整帧（可能很长）
+    // console.log(`Frame #${i}:`, srcFrame);
                     if (!that.isFieldDisabled().GYRO) { //don't calculate attitude if no gyro data
                             const gyro = [
                                 srcFrame[gyroADC[0]],
@@ -648,14 +649,15 @@ export function FlightLog(logData) {
                                 srcFrame[accSmooth[2]]
                             ];
                             const time = srcFrame[FlightLogParser.prototype.FLIGHT_LOG_FIELD_INDEX_TIME];
-                            console.log('=== Attitude Input ===');
-                            console.log('gyro:', gyro);
-                            console.log('acc :', acc);
-                            console.log('time:', time);
-                            console.log('acc_1G:', sysConfig.acc_1G);
-                            console.log('gyroScale:', sysConfig.gyroScale);
-                            console.log('magADC:', magADC);
-
+                            // console.log('=== Attitude Input ==='); //打印
+                            // console.log('gyro:', gyro);
+                            // console.log('acc :', acc);
+                            // console.log('time:', time);
+                            // console.log('acc_1G:', sysConfig.acc_1G);
+                            // console.log('gyroScale:', sysConfig.gyroScale);
+                            // console.log('magADC:', magADC);
+// 打印原始 X 轴陀螺数据
+// console.log("srcFramegyroADC[0] =", srcFrame[gyroADC[0]]);
                         attitude = chunkIMU.updateEstimatedAttitude(
                             [srcFrame[gyroADC[0]], srcFrame[gyroADC[1]], srcFrame[gyroADC[2]]],
                             [srcFrame[accSmooth[0]], srcFrame[accSmooth[1]], srcFrame[accSmooth[2]]],
@@ -1090,6 +1092,13 @@ FlightLog.prototype.accRawToGs = function(value) {
 };
 
 FlightLog.prototype.gyroRawToDegreesPerSecond = function(value) {
+    //     console.log(
+    //     "[gyroRawToDPS]",
+    //     "input value =", value,
+    //     "gyroScale =", this.getSysConfig().gyroScale,
+    //     "result =",
+    //     this.getSysConfig().gyroScale * 1000000 / (Math.PI / 180.0) * value
+    // );
     return this.getSysConfig().gyroScale * 1000000 / (Math.PI / 180.0) * value;
 };
 

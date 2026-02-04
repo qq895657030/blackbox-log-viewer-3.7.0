@@ -154,6 +154,10 @@ export function IMU(copyFrom) {
             deltaGyroAngle[axis] = gyroADC[axis] * scale;
 
             accMag += accSmooth[axis] * accSmooth[axis];
+                // 只在 axis=0 时打印 gyroADC[0]
+                // if (axis === 0) {
+                //     console.log("gyroADC[0] =", gyroADC[0], "scale =", scale, "delta =", deltaGyroAngle[0]);// 打印
+                // }
         }
         accMag = accMag * 100 / (acc_1G * acc_1G);
 

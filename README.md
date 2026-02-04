@@ -11,3 +11,8 @@ Give a more clear name under Mobile to the PWA app (#739)
 # 安装编译
 yarn install
 yarn start
+
+
+# var command = stream.readChar();    // 读 1 个字节  20260202
+
+# lineEnd = stream.pos; // 记录换行符 '\n' 或 0 的位置  

@@ -793,7 +793,7 @@ function BlackboxLogViewer() {
                return;            
             }
 
-            flightLogDataArray = new Uint8Array(bytes);
+            flightLogDataArray = new Uint8Array(bytes);//文件的二进制原始内容
             
             try {
                 flightLog = new FlightLog(flightLogDataArray); // ✅ 赋值flightLog()

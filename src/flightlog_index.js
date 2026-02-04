@@ -5,7 +5,7 @@ import { ArrayDataStream } from "./datastream";
 import './decoders';
 
 export function FlightLogIndex(logData) {
-    console.log("FlightLogIndex(logData) start ...");
+    // console.log("FlightLogIndex(logData) start ...");
     //Private:
     var 
         that = this,
@@ -18,10 +18,10 @@ export function FlightLogIndex(logData) {
             stream = new ArrayDataStream(logData), 
             i, logStart;
         
-    console.log("[FlightLogIndex] buildLogOffsetsIndex start");
-    console.log("[FlightLogIndex] logData length =", logData.length);
-    console.log("[FlightLogIndex] START_MARKER =",
-        FlightLogParser.prototype.FLIGHT_LOG_START_MARKER);
+    // console.log("[FlightLogIndex] buildLogOffsetsIndex start");
+    // console.log("[FlightLogIndex] logData length =", logData.length);
+    // console.log("[FlightLogIndex] START_MARKER =",
+    //     FlightLogParser.prototype.FLIGHT_LOG_START_MARKER);
 
         logBeginOffsets = [];
     
@@ -40,12 +40,12 @@ export function FlightLogIndex(logData) {
             stream.pos = logStart + FlightLogParser.prototype.FLIGHT_LOG_START_MARKER.length;
         }
         
-    console.log("[FlightLogIndex] logBeginOffsets =", logBeginOffsets);
-    console.log("[FlightLogIndex] FINAL logCount =", logBeginOffsets.length - 1);
+    // console.log("[FlightLogIndex] logBeginOffsets =", logBeginOffsets);
+    // console.log("[FlightLogIndex] FINAL logCount =", logBeginOffsets.length - 1);
     }
     
     function buildIntraframeDirectories() {
-          console.log("[buildIntraframeDirectories() ....");
+        //   console.log("[buildIntraframeDirectories() ....");
         var 
             parser = new FlightLogParser(logData, that);
         
@@ -107,10 +107,10 @@ export function FlightLogIndex(logData) {
                     lastSlow = [],
                     lastGPSHome = [],
                     lastGPS = [];
-            console.log("I-frame fields detected:", mainFrameDef.name)
-            console.log("Gyro ADC indices:", gyroADC);
-            console.log("Acc Smooth indices:", accSmooth);
-            console.log("Mag ADC indices:", magADC);
+            // console.log("I-frame fields detected:", mainFrameDef.name)
+            // console.log("Gyro ADC indices:", gyroADC);
+            // console.log("Acc Smooth indices:", accSmooth);
+            // console.log("Mag ADC indices:", magADC);
                 // Identify motor fields so they can be used to show the activity summary bar
                 for (let j = 0; j < 8; j++) {
                     if (mainFrameDef.nameToIndex["motor[" + j + "]"] !== undefined) {
@@ -328,15 +328,15 @@ export function FlightLogIndex(logData) {
     this.getLogCount = function() {
         if (!logBeginOffsets)
             buildLogOffsetsIndex();
-    console.log("logBeginOffsets:", logBeginOffsets); // 打印整个日志偏移数组
-    console.log("Log count:", logBeginOffsets.length - 1); // 实际日志数
+    // console.log("logBeginOffsets:", logBeginOffsets); // 打印整个日志偏移数组
+    // console.log("Log count:", logBeginOffsets.length - 1); // 实际日志数
         return logBeginOffsets.length - 1;
     };
     
     this.getIntraframeDirectories = function() {
         if (!intraframeDirectories)
             buildIntraframeDirectories();
-    console.log("intraframeDirectories:", intraframeDirectories); // 打印 I-frame 索引
+    // console.log("intraframeDirectories:", intraframeDirectories); // 打印 I-frame 索引
         return intraframeDirectories;
     };
     

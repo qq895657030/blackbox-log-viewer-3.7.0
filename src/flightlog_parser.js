@@ -555,26 +555,26 @@ export function FlightLogParser(logData) {
             matches,
             i, c;
 
-        if (stream.peekChar() != ' ')
+        if (stream.peekChar() != ' ') //peekChar() 1 个字节 ，stream.pos 不变
             return;
 
         //Skip the leading space
         stream.readChar();
 
-        lineStart = stream.pos;
+        lineStart = stream.pos;// 记录字段名开头位置（跳过 H 后的空格）
 
         for (; stream.pos < lineStart + 1024 && stream.pos < stream.end; stream.pos++) {
-            if (separatorPos === false && stream.data[stream.pos] == COLON)
+            if (separatorPos === false && stream.data[stream.pos] == COLON) //":"记录冒号的位置
                 separatorPos = stream.pos;
 
-            if (stream.data[stream.pos] == NEWLINE || stream.data[stream.pos] === 0)
+            if (stream.data[stream.pos] == NEWLINE || stream.data[stream.pos] === 0)// '\n' 或 0 结束符
                 break;
         }
 
         if (stream.data[stream.pos] != NEWLINE || separatorPos === false)
             return;
 
-        lineEnd = stream.pos;
+        lineEnd = stream.pos; // 记录换行符 '\n' 或 0 的位置
 
         fieldName = asciiArrayToString(stream.data.subarray(lineStart, separatorPos));
         fieldValue = asciiArrayToString(stream.data.subarray(separatorPos + 1, lineEnd));
@@ -608,6 +608,7 @@ export function FlightLogParser(logData) {
                 dataVersion = parseInt(fieldValue, 10);
             break;
             case "Firmware type":
+                console.log("[Firmware type] raw fieldValue =", fieldValue);
                 switch (fieldValue) {
                     case "Cleanflight":
                         that.sysConfig.firmwareType = FIRMWARE_TYPE_CLEANFLIGHT;
@@ -907,12 +908,12 @@ export function FlightLogParser(logData) {
             break;
             case "gyro.scale":
             case "gyro_scale":
-                    console.log("=== gyro_scale parse begin ===");
-                    console.log("fieldName:", fieldName);
-                    console.log("raw fieldValue:", fieldValue);
+                    // console.log("=== gyro_scale parse begin ===");//打印
+                    // console.log("fieldName:", fieldName);
+                    // console.log("raw fieldValue:", fieldValue);
                     that.sysConfig.gyroScale = hexToFloat(fieldValue);
-                    console.log("parsed gyroScale (header value):", that.sysConfig.gyroScale);
-                    console.log("firmwareType:", that.sysConfig.firmwareType);
+                    // console.log("parsed gyroScale (header value):", that.sysConfig.gyroScale);
+                    // console.log("firmwareType:", that.sysConfig.firmwareType);
                     /* Baseflight uses a gyroScale that'll give radians per microsecond as output, whereas Cleanflight produces degrees
                      * per second and leaves the conversion to radians per us to the IMU. Let's just convert Cleanflight's scale to
                      * match Baseflight so we can use Baseflight's IMU for both: */
@@ -1031,7 +1032,7 @@ export function FlightLogParser(logData) {
                             console.log("Saw unsupported field header \"" + fieldName + "\"");
                     }
                 } else {
-                    console.log(`Ignoring unsupported header ${fieldName} ${fieldValue}`);
+                    // console.log(`Ignoring unsupported header ${fieldName} ${fieldValue}`);
                     if (that.sysConfig.unknownHeaders === null) {
                         that.sysConfig.unknownHeaders = new Array();
                     }
@@ -1098,7 +1099,7 @@ export function FlightLogParser(logData) {
         } else {
             invalidateMainStream();
         }
-
+console.log("that.onFrameReady");//打印
         if (that.onFrameReady)
             that.onFrameReady(mainStreamIsValid, mainHistory[0], frameType, frameStart, frameEnd - frameStart);
 
@@ -1223,6 +1224,10 @@ export function FlightLogParser(logData) {
 
                 current[i] = applyPrediction(i, raw ? FLIGHT_LOG_FIELD_PREDICTOR_0 : predictor[i], value, current, previous, previous2);
                 i++;
+                // 调试打印 gyroADC[0]
+// if (frameDef.name?.[i] === "gyroADC[0]") {
+//     console.log("是Raw gyroADC[0] =", current[i]);
+// }
             }
         }
     }
@@ -1656,11 +1661,12 @@ export function FlightLogParser(logData) {
 
         mainloop:
         while (true) {
-            var command = stream.readChar();
-        console.log('Read command:', command.charCodeAt(0), command);
+            var command = stream.readChar();    // 读 1 个字节 ； readChar()读取 1 个字节，stream.pos 会 +1
+        console.log('一个字节Read command:', command.charCodeAt(0), command);
+        console.log('stream.EOF:', stream.EOF);
             switch (command) {
                 case "H":
-                    console.log('Header line found at pos', stream.pos - 1);
+                    // console.log('Header line found at pos', stream.pos - 1);
                     parseHeaderLine();
                 break;
                 case EOF:
@@ -1678,8 +1684,8 @@ export function FlightLogParser(logData) {
                 break;
             }
         }
-        console.log("I-frame fields:", this.frameDefs.I.name);
-        console.log("P-frame fields:", this.frameDefs.P ? this.frameDefs.P.name : "undefined");
+        // console.log("I-frame fields:", this.frameDefs.I.name);
+        // console.log("P-frame fields:", this.frameDefs.P ? this.frameDefs.P.name : "undefined");
         adjustFieldDefsList(that.sysConfig.firmwareType, that.sysConfig.firmwareVersion);
         FlightLogFieldPresenter.adjustDebugDefsList(that.sysConfig.firmwareType, that.sysConfig.firmwareVersion);
 
