@@ -15,4 +15,8 @@ yarn start
 
 # var command = stream.readChar();    // 读 1 个字节  20260202
 
-# lineEnd = stream.pos; // 记录换行符 '\n' 或 0 的位置  
+# lineEnd = stream.pos; // 记录换行符 '\n' 或 0 的位置
+
+# 处理飞控数据this.parseLogData 
+// Is this the beginning of a new frame? 如果当前字节是 'I' 'P' 'G' ...说明新的一帧开始
+looksLikeFrameCompleted = getFrameType(command) || (!prematureEof && command == EOF);

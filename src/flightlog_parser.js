@@ -1652,7 +1652,7 @@ console.log("that.onFrameReady");//打印
 
     this.parseHeader = function(startOffset, endOffset) {
         this.resetAllState();
-        console.log('parseHeader started');
+        // console.log('parseHeader started');
         //Set parsing ranges up
         stream.start = startOffset === undefined ? stream.pos : startOffset;
         stream.pos = stream.start;
@@ -1662,8 +1662,8 @@ console.log("that.onFrameReady");//打印
         mainloop:
         while (true) {
             var command = stream.readChar();    // 读 1 个字节 ； readChar()读取 1 个字节，stream.pos 会 +1
-        console.log('一个字节Read command:', command.charCodeAt(0), command);
-        console.log('stream.EOF:', stream.EOF);
+        // console.log('一个字节Read command:', command.charCodeAt(0), command);
+        // console.log('stream.EOF:', stream.EOF);
             switch (command) {
                 case "H":
                     // console.log('Header line found at pos', stream.pos - 1);
@@ -1786,8 +1786,15 @@ console.log("that.onFrameReady");//打印
                 var
                     lastFrameSize = stream.pos - frameStart,
                     frameTypeStats;
-
-                // Is this the beginning of a new frame?
+if (lastFrameSize < 200) {   // 防止刷屏 + 防止 UI 卡死
+    console.log(
+        `[FRAME SIZE] pos=${stream.pos}`,
+        `frameStart=${frameStart}`,
+        `lastFrameSize=${lastFrameSize}`,
+        `lastType=${lastFrameType ? lastFrameType.marker : 'none'}`
+    );
+}
+                // Is this the beginning of a new frame? 如果当前字节是 'I' 'P' 'G' ...说明新的一帧开始
                 looksLikeFrameCompleted = getFrameType(command) || (!prematureEof && command == EOF);
 
                 if (!this.stats.frame[lastFrameType.marker]) {
@@ -1797,7 +1804,7 @@ console.log("that.onFrameReady");//打印
                         validCount: 0,
                         corruptCount: 0,
                         field: []
-                    };
+                    };  
                 }
 
                 frameTypeStats = this.stats.frame[lastFrameType.marker];
